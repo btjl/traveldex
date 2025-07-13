@@ -119,4 +119,10 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .icons {
+    @apply w-16 h-16;
+  }
 }
+
+@plugin "@tailwindcss/typography";
