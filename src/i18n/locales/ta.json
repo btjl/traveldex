@@ -1,0 +1,247 @@
+{
+  "HomePage": {
+    "title": "Traveldex",
+    "subtitle": "அத்தியாவசிய பயண சொற்றொடர்களுக்கான உங்கள் வழிகாட்டி."
+  },
+  "Categories": {
+    "greetings": "வாழ்த்துக்கள்",
+    "transport": "போக்குவரத்து",
+    "hotel": "ஹோட்டல்",
+    "dining": "உணவருந்துதல்",
+    "directions": "திசைகள்",
+    "shopping": "ஷாப்பிங்",
+    "emergency": "அவசரம்",
+    "basics": "அடிப்படைகள்"
+  },
+  "LocaleLayout": {
+    "title": "Traveldex",
+    "description": "அத்தியாவசிய பயண சொற்றொடர்களுக்கான உங்கள் வழிகாட்டி."
+  },
+  "Phrases": {
+    "greetings": {
+      "title": "வாழ்த்துக்கள்",
+      "items": [
+        {
+          "id": 1,
+          "key": "hello",
+          "base": "வணக்கம்"
+        },
+        {
+          "id": 2,
+          "key": "goodbye",
+          "base": "விடைபெறுகிறேன்"
+        },
+        {
+          "id": 3,
+          "key": "good_morning",
+          "base": "காலை வணக்கம்"
+        },
+        {
+          "id": 4,
+          "key": "good_afternoon",
+          "base": "மதிய வணக்கம்"
+        },
+        {
+          "id": 5,
+          "key": "good_evening",
+          "base": "மாலை வணக்கம்"
+        },
+        {
+          "id": 6,
+          "key": "good_night",
+          "base": "நல் இரவு"
+        },
+        {
+          "id": 7,
+          "key": "how_are_you",
+          "base": "எப்படி இருக்கிறீர்கள்?"
+        },
+        {
+          "id": 8,
+          "key": "im_fine_thank_you",
+          "base": "நான் நலமாக இருக்கிறேன், நன்றி."
+        },
+        {
+          "id": 9,
+          "key": "whats_your_name",
+          "base": "உங்கள் பெயர் என்ன?"
+        },
+        {
+          "id": 10,
+          "key": "my_name_is",
+          "base": "என் பெயர்..."
+        },
+        {
+          "id": 11,
+          "key": "nice_to_meet_you",
+          "base": "உங்களை சந்தித்ததில் மகிழ்ச்சி."
+        },
+        {
+          "id": 12,
+          "key": "see_you_later",
+          "base": "பிறகு சந்திப்போம்."
+        },
+        {
+          "id": 13,
+          "key": "excuse_me",
+          "base": "மன்னிக்கவும்."
+        },
+        {
+          "id": 14,
+          "key": "im_sorry",
+          "base": "மன்னிக்கவும்."
+        },
+        {
+          "id": 15,
+          "key": "thank_you",
+          "base": "நன்றி."
+        },
+        {
+          "id": 16,
+          "key": "youre_welcome",
+          "base": "வரவேற்கிறேன்."
+        },
+        {
+          "id": 17,
+          "key": "please",
+          "base": "தயவுசெய்து."
+        },
+        {
+          "id": 18,
+          "key": "yes",
+          "base": "ஆம்."
+        },
+        {
+          "id": 19,
+          "key": "no",
+          "base": "இல்லை."
+        },
+        {
+          "id": 20,
+          "key": "i_dont_understand",
+          "base": "எனக்கு புரியவில்லை."
+        },
+        {
+          "id": 21,
+          "key": "speak_slower",
+          "base": "நீங்கள் மெதுவாக பேச முடியுமா?"
+        },
+        {
+          "id": 22,
+          "key": "how_do_you_say",
+          "base": "...எப்படி சொல்வது?"
+        },
+        {
+          "id": 23,
+          "key": "where_are_you_from",
+          "base": "நீங்கள் எங்கிருந்து வருகிறீர்கள்?"
+        },
+        {
+          "id": 24,
+          "key": "im_from",
+          "base": "நான் ...லிருந்து வருகிறேன்."
+        },
+        {
+          "id": 25,
+          "key": "have_a_nice_day",
+          "base": "இனிய நாள் அமையட்டும்."
+        },
+        {
+          "id": 26,
+          "key": "take_care",
+          "base": "கவனமாக இருங்கள்."
+        },
+        {
+          "id": 27,
+          "key": "whats_up",
+          "base": "என்ன நடக்கிறது?"
+        },
+        {
+          "id": 28,
+          "key": "not_much",
+          "base": "அவ்வளவு ஒன்றுமில்லை."
+        },
+        {
+          "id": 29,
+          "key": "hows_it_going",
+          "base": "எப்படிப் போய்க்கொண்டிருக்கிறது?"
+        },
+        {
+          "id": 30,
+          "key": "its_going_well",
+          "base": "நன்றாகப் போய்க்கொண்டிருக்கிறது."
+        }
+      ]
+    },
+    "transport": {
+      "title": "போக்குவரத்து",
+      "items": [
+        {
+          "id": 1,
+          "key": "nearest_bus_stop",
+          "base": "அருகிலுள்ள பேருந்து நிறுத்தம் எங்கே?"
+        }
+      ]
+    },
+    "hotel": {
+      "title": "ஹோட்டல்",
+      "items": [
+        {
+          "id": 1,
+          "key": "have_reservation",
+          "base": "எனக்கு முன்பதிவு உள்ளது."
+        }
+      ]
+    },
+    "dining": {
+      "title": "உணவருந்துதல்",
+      "items": [
+        {
+          "id": 1,
+          "key": "table_for_two",
+          "base": "இருவருக்கு ஒரு மேசை, தயவுசெய்து."
+        }
+      ]
+    },
+    "directions": {
+      "title": "திசைகள்",
+      "items": [
+        {
+          "id": 1,
+          "key": "where_is_museum",
+          "base": "மன்னிக்கவும், அருங்காட்சியகம் எங்கே உள்ளது?"
+        }
+      ]
+    },
+    "shopping": {
+      "title": "ஷாப்பிங்",
+      "items": [
+        {
+          "id": 1,
+          "key": "how_much_this",
+          "base": "இதன் விலை எவ்வளவு?"
+        }
+      ]
+    },
+    "emergency": {
+      "title": "அவசரம்",
+      "items": [
+        {
+          "id": 1,
+          "key": "help",
+          "base": "உதவி!"
+        }
+      ]
+    },
+    "basics": {
+      "title": "அடிப்படைகள்",
+      "items": [
+        {
+          "id": 1,
+          "key": "one",
+          "base": "ஒன்று"
+        }
+      ]
+    }
+  }
+}
