@@ -1,0 +1,247 @@
+{
+  "HomePage": {
+    "title": "Traveldex",
+    "subtitle": "您的旅行必备短语指南。"
+  },
+  "Categories": {
+    "greetings": "问候",
+    "transport": "交通",
+    "hotel": "酒店",
+    "dining": "餐饮",
+    "directions": "方向",
+    "shopping": "购物",
+    "emergency": "紧急情况",
+    "basics": "基础"
+  },
+  "LocaleLayout": {
+    "title": "Traveldex",
+    "description": "您的旅行必备短语指南。"
+  },
+  "Phrases": {
+    "greetings": {
+      "title": "问候",
+      "items": [
+        {
+          "id": 1,
+          "key": "hello",
+          "base": "你好"
+        },
+        {
+          "id": 2,
+          "key": "goodbye",
+          "base": "再见"
+        },
+        {
+          "id": 3,
+          "key": "good_morning",
+          "base": "早上好"
+        },
+        {
+          "id": 4,
+          "key": "good_afternoon",
+          "base": "下午好"
+        },
+        {
+          "id": 5,
+          "key": "good_evening",
+          "base": "晚上好"
+        },
+        {
+          "id": 6,
+          "key": "good_night",
+          "base": "晚安"
+        },
+        {
+          "id": 7,
+          "key": "how_are_you",
+          "base": "你好吗？"
+        },
+        {
+          "id": 8,
+          "key": "im_fine_thank_you",
+          "base": "我很好，谢谢。"
+        },
+        {
+          "id": 9,
+          "key": "whats_your_name",
+          "base": "你叫什么名字？"
+        },
+        {
+          "id": 10,
+          "key": "my_name_is",
+          "base": "我叫..."
+        },
+        {
+          "id": 11,
+          "key": "nice_to_meet_you",
+          "base": "很高兴认识你。"
+        },
+        {
+          "id": 12,
+          "key": "see_you_later",
+          "base": "待会儿见。"
+        },
+        {
+          "id": 13,
+          "key": "excuse_me",
+          "base": "打扰一下。"
+        },
+        {
+          "id": 14,
+          "key": "im_sorry",
+          "base": "对不起。"
+        },
+        {
+          "id": 15,
+          "key": "thank_you",
+          "base": "谢谢。"
+        },
+        {
+          "id": 16,
+          "key": "youre_welcome",
+          "base": "不客气。"
+        },
+        {
+          "id": 17,
+          "key": "please",
+          "base": "请。"
+        },
+        {
+          "id": 18,
+          "key": "yes",
+          "base": "是。"
+        },
+        {
+          "id": 19,
+          "key": "no",
+          "base": "不。"
+        },
+        {
+          "id": 20,
+          "key": "i_dont_understand",
+          "base": "我不明白。"
+        },
+        {
+          "id": 21,
+          "key": "speak_slower",
+          "base": "你能说慢点吗？"
+        },
+        {
+          "id": 22,
+          "key": "how_do_you_say",
+          "base": "...怎么说？"
+        },
+        {
+          "id": 23,
+          "key": "where_are_you_from",
+          "base": "你来自哪里？"
+        },
+        {
+          "id": 24,
+          "key": "im_from",
+          "base": "我来自..."
+        },
+        {
+          "id": 25,
+          "key": "have_a_nice_day",
+          "base": "祝你愉快。"
+        },
+        {
+          "id": 26,
+          "key": "take_care",
+          "base": "保重。"
+        },
+        {
+          "id": 27,
+          "key": "whats_up",
+          "base": "有什么事吗？"
+        },
+        {
+          "id": 28,
+          "key": "not_much",
+          "base": "没什么。"
+        },
+        {
+          "id": 29,
+          "key": "hows_it_going",
+          "base": "最近怎么样？"
+        },
+        {
+          "id": 30,
+          "key": "its_going_well",
+          "base": "一切顺利。"
+        }
+      ]
+    },
+    "transport": {
+      "title": "交通",
+      "items": [
+        {
+          "id": 1,
+          "key": "nearest_bus_stop",
+          "base": "最近的公交站在哪里？"
+        }
+      ]
+    },
+    "hotel": {
+      "title": "酒店",
+      "items": [
+        {
+          "id": 1,
+          "key": "have_reservation",
+          "base": "我有一个预订。"
+        }
+      ]
+    },
+    "dining": {
+      "title": "餐饮",
+      "items": [
+        {
+          "id": 1,
+          "key": "table_for_two",
+          "base": "请给我一个两人桌。"
+        }
+      ]
+    },
+    "directions": {
+      "title": "方向",
+      "items": [
+        {
+          "id": 1,
+          "key": "where_is_museum",
+          "base": "打扰一下，博物馆在哪里？"
+        }
+      ]
+    },
+    "shopping": {
+      "title": "购物",
+      "items": [
+        {
+          "id": 1,
+          "key": "how_much_this",
+          "base": "这个多少钱？"
+        }
+      ]
+    },
+    "emergency": {
+      "title": "紧急情况",
+      "items": [
+        {
+          "id": 1,
+          "key": "help",
+          "base": "救命！"
+        }
+      ]
+    },
+    "basics": {
+      "title": "基础",
+      "items": [
+        {
+          "id": 1,
+          "key": "one",
+          "base": "一"
+        }
+      ]
+    }
+  }
+}

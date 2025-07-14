@@ -1,0 +1,247 @@
+{
+  "HomePage": {
+    "title": "Traveldex",
+    "subtitle": "Your guide to essential travel phrases."
+  },
+  "Categories": {
+    "greetings": "Greetings",
+    "transport": "Transport",
+    "hotel": "Hotel",
+    "dining": "Dining",
+    "directions": "Directions",
+    "shopping": "Shopping",
+    "emergency": "Emergency",
+    "basics": "Basics"
+  },
+  "LocaleLayout": {
+    "title": "Traveldex",
+    "description": "Your guide to essential travel phrases."
+  },
+  "Phrases": {
+    "greetings": {
+      "title": "Greetings",
+      "items": [
+        {
+          "id": 1,
+          "key": "hello",
+          "base": "Hello"
+        },
+        {
+          "id": 2,
+          "key": "goodbye",
+          "base": "Goodbye"
+        },
+        {
+          "id": 3,
+          "key": "good_morning",
+          "base": "Good morning"
+        },
+        {
+          "id": 4,
+          "key": "good_afternoon",
+          "base": "Good afternoon"
+        },
+        {
+          "id": 5,
+          "key": "good_evening",
+          "base": "Good evening"
+        },
+        {
+          "id": 6,
+          "key": "good_night",
+          "base": "Good night"
+        },
+        {
+          "id": 7,
+          "key": "how_are_you",
+          "base": "How are you?"
+        },
+        {
+          "id": 8,
+          "key": "im_fine_thank_you",
+          "base": "I'm fine, thank you."
+        },
+        {
+          "id": 9,
+          "key": "whats_your_name",
+          "base": "What's your name?"
+        },
+        {
+          "id": 10,
+          "key": "my_name_is",
+          "base": "My name is..."
+        },
+        {
+          "id": 11,
+          "key": "nice_to_meet_you",
+          "base": "Nice to meet you."
+        },
+        {
+          "id": 12,
+          "key": "see_you_later",
+          "base": "See you later."
+        },
+        {
+          "id": 13,
+          "key": "excuse_me",
+          "base": "Excuse me."
+        },
+        {
+          "id": 14,
+          "key": "im_sorry",
+          "base": "I'm sorry."
+        },
+        {
+          "id": 15,
+          "key": "thank_you",
+          "base": "Thank you."
+        },
+        {
+          "id": 16,
+          "key": "youre_welcome",
+          "base": "You're welcome."
+        },
+        {
+          "id": 17,
+          "key": "please",
+          "base": "Please."
+        },
+        {
+          "id": 18,
+          "key": "yes",
+          "base": "Yes."
+        },
+        {
+          "id": 19,
+          "key": "no",
+          "base": "No."
+        },
+        {
+          "id": 20,
+          "key": "i_dont_understand",
+          "base": "I don't understand."
+        },
+        {
+          "id": 21,
+          "key": "speak_slower",
+          "base": "Could you speak slower?"
+        },
+        {
+          "id": 22,
+          "key": "how_do_you_say",
+          "base": "How do you say...?"
+        },
+        {
+          "id": 23,
+          "key": "where_are_you_from",
+          "base": "Where are you from?"
+        },
+        {
+          "id": 24,
+          "key": "im_from",
+          "base": "I'm from..."
+        },
+        {
+          "id": 25,
+          "key": "have_a_nice_day",
+          "base": "Have a nice day."
+        },
+        {
+          "id": 26,
+          "key": "take_care",
+          "base": "Take care."
+        },
+        {
+          "id": 27,
+          "key": "whats_up",
+          "base": "What's up?"
+        },
+        {
+          "id": 28,
+          "key": "not_much",
+          "base": "Not much."
+        },
+        {
+          "id": 29,
+          "key": "hows_it_going",
+          "base": "How's it going?"
+        },
+        {
+          "id": 30,
+          "key": "its_going_well",
+          "base": "It's going well."
+        }
+      ]
+    },
+    "transport": {
+      "title": "Transport",
+      "items": [
+        {
+          "id": 1,
+          "key": "nearest_bus_stop",
+          "base": "Where is the nearest bus stop?"
+        }
+      ]
+    },
+    "hotel": {
+      "title": "Hotel",
+      "items": [
+        {
+          "id": 1,
+          "key": "have_reservation",
+          "base": "I have a reservation."
+        }
+      ]
+    },
+    "dining": {
+      "title": "Dining",
+      "items": [
+        {
+          "id": 1,
+          "key": "table_for_two",
+          "base": "A table for two, please."
+        }
+      ]
+    },
+    "directions": {
+      "title": "Directions",
+      "items": [
+        {
+          "id": 1,
+          "key": "where_is_museum",
+          "base": "Excuse me, where is the museum?"
+        }
+      ]
+    },
+    "shopping": {
+      "title": "Shopping",
+      "items": [
+        {
+          "id": 1,
+          "key": "how_much_this",
+          "base": "How much is this?"
+        }
+      ]
+    },
+    "emergency": {
+      "title": "Emergency",
+      "items": [
+        {
+          "id": 1,
+          "key": "help",
+          "base": "Help!"
+        }
+      ]
+    },
+    "basics": {
+      "title": "Basics",
+      "items": [
+        {
+          "id": 1,
+          "key": "one",
+          "base": "One"
+        }
+      ]
+    }
+  }
+}
