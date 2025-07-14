@@ -1,0 +1,247 @@
+{
+  "HomePage": {
+    "title": "Traveldex",
+    "subtitle": "Panduan anda untuk frasa perjalanan penting."
+  },
+  "Categories": {
+    "greetings": "Salam",
+    "transport": "Pengangkutan",
+    "hotel": "Hotel",
+    "dining": "Makan",
+    "directions": "Arah",
+    "shopping": "Beli-belah",
+    "emergency": "Kecemasan",
+    "basics": "Asas"
+  },
+  "LocaleLayout": {
+    "title": "Traveldex",
+    "description": "Panduan anda untuk frasa perjalanan penting."
+  },
+  "Phrases": {
+    "greetings": {
+      "title": "Salam",
+      "items": [
+        {
+          "id": 1,
+          "key": "hello",
+          "base": "Helo"
+        },
+        {
+          "id": 2,
+          "key": "goodbye",
+          "base": "Selamat tinggal"
+        },
+        {
+          "id": 3,
+          "key": "good_morning",
+          "base": "Selamat pagi"
+        },
+        {
+          "id": 4,
+          "key": "good_afternoon",
+          "base": "Selamat petang"
+        },
+        {
+          "id": 5,
+          "key": "good_evening",
+          "base": "Selamat malam"
+        },
+        {
+          "id": 6,
+          "key": "good_night",
+          "base": "Selamat malam"
+        },
+        {
+          "id": 7,
+          "key": "how_are_you",
+          "base": "Apa khabar?"
+        },
+        {
+          "id": 8,
+          "key": "im_fine_thank_you",
+          "base": "Saya baik, terima kasih."
+        },
+        {
+          "id": 9,
+          "key": "whats_your_name",
+          "base": "Siapa nama awak?"
+        },
+        {
+          "id": 10,
+          "key": "my_name_is",
+          "base": "Nama saya..."
+        },
+        {
+          "id": 11,
+          "key": "nice_to_meet_you",
+          "base": "Selamat berkenalan."
+        },
+        {
+          "id": 12,
+          "key": "see_you_later",
+          "base": "Jumpa lagi nanti."
+        },
+        {
+          "id": 13,
+          "key": "excuse_me",
+          "base": "Maafkan saya."
+        },
+        {
+          "id": 14,
+          "key": "im_sorry",
+          "base": "Saya minta maaf."
+        },
+        {
+          "id": 15,
+          "key": "thank_you",
+          "base": "Terima kasih."
+        },
+        {
+          "id": 16,
+          "key": "youre_welcome",
+          "base": "Sama-sama."
+        },
+        {
+          "id": 17,
+          "key": "please",
+          "base": "Tolong."
+        },
+        {
+          "id": 18,
+          "key": "yes",
+          "base": "Ya."
+        },
+        {
+          "id": 19,
+          "key": "no",
+          "base": "Tidak."
+        },
+        {
+          "id": 20,
+          "key": "i_dont_understand",
+          "base": "Saya tidak faham."
+        },
+        {
+          "id": 21,
+          "key": "speak_slower",
+          "base": "Bolehkah anda bercakap lebih perlahan?"
+        },
+        {
+          "id": 22,
+          "key": "how_do_you_say",
+          "base": "Bagaimana anda menyebut...?"
+        },
+        {
+          "id": 23,
+          "key": "where_are_you_from",
+          "base": "Anda dari mana?"
+        },
+        {
+          "id": 24,
+          "key": "im_from",
+          "base": "Saya dari..."
+        },
+        {
+          "id": 25,
+          "key": "have_a_nice_day",
+          "base": "Semoga hari anda menyenangkan."
+        },
+        {
+          "id": 26,
+          "key": "take_care",
+          "base": "Jaga diri."
+        },
+        {
+          "id": 27,
+          "key": "whats_up",
+          "base": "Apa khabar?"
+        },
+        {
+          "id": 28,
+          "key": "not_much",
+          "base": "Tiada apa-apa."
+        },
+        {
+          "id": 29,
+          "key": "hows_it_going",
+          "base": "Bagaimana keadaan?"
+        },
+        {
+          "id": 30,
+          "key": "its_going_well",
+          "base": "Berjalan lancar."
+        }
+      ]
+    },
+    "transport": {
+      "title": "Pengangkutan",
+      "items": [
+        {
+          "id": 1,
+          "key": "nearest_bus_stop",
+          "base": "Di manakah perhentian bas terdekat?"
+        }
+      ]
+    },
+    "hotel": {
+      "title": "Hotel",
+      "items": [
+        {
+          "id": 1,
+          "key": "have_reservation",
+          "base": "Saya ada tempahan."
+        }
+      ]
+    },
+    "dining": {
+      "title": "Makan",
+      "items": [
+        {
+          "id": 1,
+          "key": "table_for_two",
+          "base": "Meja untuk dua orang, tolong."
+        }
+      ]
+    },
+    "directions": {
+      "title": "Arah",
+      "items": [
+        {
+          "id": 1,
+          "key": "where_is_museum",
+          "base": "Maafkan saya, di manakah muzium?"
+        }
+      ]
+    },
+    "shopping": {
+      "title": "Beli-belah",
+      "items": [
+        {
+          "id": 1,
+          "key": "how_much_this",
+          "base": "Berapa harga ini?"
+        }
+      ]
+    },
+    "emergency": {
+      "title": "Kecemasan",
+      "items": [
+        {
+          "id": 1,
+          "key": "help",
+          "base": "Tolong!"
+        }
+      ]
+    },
+    "basics": {
+      "title": "Asas",
+      "items": [
+        {
+          "id": 1,
+          "key": "one",
+          "base": "Satu"
+        }
+      ]
+    }
+  }
+}
