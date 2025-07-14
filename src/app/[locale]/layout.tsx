@@ -1,27 +1,20 @@
-// app/[locale]/layout.tsx
-
 import { EnsureLocaleAndTranslateParam } from "@/components/EnsureLocaleAndTranslateParam";
-import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Geist, Geist_Mono } from "next/font/google";
 import { createTranslator } from "use-intl/core";
 import "../globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
-export async function generateMetadata(props: {
-  params: { locale: string };
-}): Promise<Metadata> {
-  const locale = (await props).params.locale;
+
+type Params = Promise<{ locale: string }>;
+
+
+export async function generateMetadata({ params }: { params: Params }) {
+  const { locale } = await params;
 
   const messages = (await import(`@/i18n/locales/${locale}.json`)).default;
 
@@ -37,23 +30,19 @@ export async function generateMetadata(props: {
   };
 }
 
-export default async function RootLayout({
-  children,
-  params
-}: Readonly<{
-  children: React.ReactNode;
-  params: { locale: string }
-}>) {
-  const locale = await params.locale
+
+export default async function RootLayout({ children, params }: { children: React.ReactNode, params: Params }) {
+  const { locale } = await params;
+
   const messages = await getMessages();
+
   return (
     <html lang={locale}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50 text-slate-800`}
-      >
-        {/* Ensure URL always has locale path and translateTo param */}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50 text-slate-800`}>
         <EnsureLocaleAndTranslateParam />
-        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
