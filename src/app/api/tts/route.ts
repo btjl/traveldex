@@ -2,8 +2,8 @@ import { GoogleGenAI } from '@google/genai';
 import wav from 'wav';
 
 async function saveWaveFile(
-  filename,
-  pcmData,
+  filename: string,
+  pcmData: Buffer<ArrayBufferLike>,
   channels = 1,
   rate = 24000,
   sampleWidth = 2,
@@ -42,17 +42,17 @@ async function main() {
   });
 
   const data = response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
-  const audioBuffer = Buffer.from(data, 'base64');
+  const audioBuffer = Buffer.from(data!, 'base64');
 
   const fileName = 'out.wav';
   await saveWaveFile(fileName, audioBuffer);
 }
 
 export async function POST(request: Request) {
-  const result = await main()
+  console.log(request)
+  const result = await main() ?? null
+  if (!result) {
+    return new Response('Error', { status: 500 })
+  }
   return new Response(result)
-
-
-
-
 }
